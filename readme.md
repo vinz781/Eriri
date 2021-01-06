@@ -1,10 +1,10 @@
 <p align="center">
 <p align='center'><a href="https://github.com/Paiiss"><img height="200" src="https://i.ibb.co/KqgGLGy/ebb71b602b65.jpg"></a>&nbsp;&nbsp;</p>
 <p align="center">
-<a href="https://github.com/Paiiss/followers"><img title="Followers" src="https://img.shields.io/github/followers/TobyG74?color=blue&style=flat-square"></a>
-<a href="https://github.com/Paiiss/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TobyG74/ElainaBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/Paiiss/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TobyG74/ElainaBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/Paiiss/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TobyG74/ElainaBOT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Paiiss/followers"><img title="Followers" src="https://img.shields.io/github/followers/Paiiss?color=blue&style=flat-square"></a>
+<a href="https://github.com/Paiiss/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Paiiss/Eriri?color=red&style=flat-square"></a>
+<a href="https://github.com/Paiiss/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Paiiss/Eriri?color=red&style=flat-square"></a>
+<a href="https://github.com/Paiiss/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Paiiss/Eriri?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 <p align='center'>
    <a href="https://instagram.com/mfa_daffa"><img height="30" src="https://github.com/Paiiss/Pais/blob/main/instagram.jpg?raw=true"></a>&nbsp;&nbsp;
