@@ -1,0 +1,22 @@
+{
+    "stylebot": "𝙀𝙧𝙞𝙧𝙞",
+    "ownerbot": "pais",
+    "namabot": "Eriri",
+    "versibot": "1",
+    "limitCount": 20,
+    "memberLimit": 25,
+    "groupLimit": 25,
+    "barbarkey": "ApiKEY",
+    "vhtearkey": "ApiKEY",
+    "zekapikey": "ApiKEY",
+    "hujanikey": "ApiKEY",
+    "melodikey": "ApiKEY",
+    "prefix": "-",
+    "owner": "6285805609094@c.us",
+    "mtc": false,
+    "restartState": false,
+    "restartId": "undefined",
+    "banChats": false,
+    "Rest": true
+}
+  
