@@ -1,5 +1,5 @@
 <p align="center">
-<p align='center'><a href="https://github.com/Paiiss"><img height="200" src="https://i.ibb.co/KqgGLGy/ebb71b602b65.jpg"></a>&nbsp;&nbsp;</p>
+<p align='center'><a href="https://github.com/Paiiss"><img height="200" src="https://github.com/Paiiss/Pais/blob/main/betty.jpg?raw=true"></a>&nbsp;&nbsp;</p>
 <p align="center">
 <a href="https://github.com/Paiiss/followers"><img title="Followers" src="https://img.shields.io/github/followers/Paiiss?color=blue&style=flat-square"></a>
 <a href="https://github.com/Paiiss/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Paiiss/Eriri?color=red&style=flat-square"></a>
