@@ -21,6 +21,7 @@ ownerNumber = "6213xxxxxx@c.us"
 [] -> ["62813xxxxxx@c.us"]
 
 ## APIKEY
+Chat me to get apikey
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
 - [ZEKSAPI](https://api-zeks.harispoppy.com)
