@@ -84,17 +84,18 @@ for pm2 :
 after running it you need to scan the qr
 
 ---
-## Belum Ada
+## BELUM JADI
 
 ## 🙏 Big Special Thanks To
-
+ 
+* [`Tobz`](https://github.com/TobyG74/elainabot)
 * [`MHRTZ`](https://github.com/MRHRTZ) 
 * [`OpenWA/WA-Automate`](https://github.com/open-wa/wa-automate-nodejs) 
 * [`YogaSakti`](https://github.com/YogaSakti/imageToSticker) 
 * [`MhankBarBar`](https://github.com/MhankBarBar/whatsapp-bot) 
 * [`ItzNgga`](https://github.com/ItzNgga/wa-bot.js) 
 * [`Gimenz`](https://github.com/Gimenz) 
-* [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot) 
-* [`Tobz`](https://github.com/TobyG74/elainabot)
-
-
+* [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot)
+* [`vinZ`](https://github.com/vinz781)
+* [`Dhil-J`](https://github.com/Dhil-J/AlyxBOT)
+* [`Bintang Nur Pradana`](https://github.com/Bintang73/)
