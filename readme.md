@@ -102,4 +102,4 @@ after running it you need to scan the qr
 * [`Dhil-J`](https://github.com/Dhil-J/AlyxBOT)
 * [`Bintang Nur Pradana`](https://github.com/Bintang73/)
 * [`Rafly`](https://github.com/Raflyarya/)
-* [`Met~](https://github.com/mamet8)
+* [`Met`](https://github.com/mamet8)
