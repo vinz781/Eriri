@@ -27,6 +27,7 @@ Open setting.js then edit & paste it in YOUR_APIKEY
 - [ZEKSAPI](https://api-zeks.harispoppy.com)
 - [HUJANAPI](https://hujanapi.herokuapp.com)
 - [MELODIXCTAPI](https://melodixct.herokuapp.com)
+- [HujanApi](https://hujanapi.herokuapp.com/)
 
 Apikey Location
 - [SETTING](https://github.com/Paiiss/Eriri/blob/main/lib/database/setting.json)
@@ -100,3 +101,5 @@ after running it you need to scan the qr
 * [`vinZ`](https://github.com/vinz781)
 * [`Dhil-J`](https://github.com/Dhil-J/AlyxBOT)
 * [`Bintang Nur Pradana`](https://github.com/Bintang73/)
+* [`Rafly`](https://github.com/Raflyarya/)
+* [`Met~](https://github.com/mamet8)
