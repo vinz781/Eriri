@@ -71,6 +71,9 @@ let limit = JSON.parse(fs.readFileSync('./database/limit.json'))
 let welkome = JSON.parse(fs.readFileSync('./database/welcome.json'))
 let pengirim = JSON.parse(fs.readFileSync('./database/user.json'))
 const afk = JSON.parse(fs.readFileSync('./database/afk.json'))
+const _premium = JSON.parse(fs.readFileSync('./database/bot/premium.json'))
+//const { limite, level, card, register, afke, reminder, premium } = require('../function')
+const premium = JSON.parse(fs.readFileSync('./function/premium.js'))
 
 const { 
     uploadImages, 
@@ -202,6 +205,9 @@ module.exports = pais = async (pais, message) => {
 
         const tms = (Date.now() / 1000) - (timeStart);
         const cts = waktu(tms)
+
+        // Automate
+        premium.expiredCheck(_premium)
 
         /*********** FUNTIONS ***********/
         const addAfk = (nom, time, alasan) => {
@@ -575,6 +581,36 @@ module.exports = pais = async (pais, message) => {
         case prefix+'creator':
             pais.sendContact(chatId, `6285805609094@c.us`, 'Pais')
             pais.reply(from, 'Itu nomor si pais, Chat dia jika penting saja!, Dan Just get to the point!', id)
+            break
+        /*********PREMIUM*************/
+        case prefix + 'premium':
+                if (!isOwner) return await pais.reply(from, ind.ownerOnly(), id)
+                if (args.length !== 3) return pais.reply(from, `Format Salah!`, id)
+                if (ar[1] === 'add') {
+                    if (mentionedJidList.length == 0) {
+                        for (let benet of mentionedJidList) {
+                            if (benet === botNumber) return await pais.reply(from, `Format salah`, id)
+                            premium.addPremiumUser(benet, args[2], _premium)
+                            await pais.reply(from, `*「 PREMIUM ADDED 」*\n\n➸ *ID*: ${benet}\n➸ *Expired*: ${ms(toMs(args[2])).days} day(s) ${ms(toMs(args[2])).hours} hour(s) ${ms(toMs(args[2])).minutes} minute(s)`, id)
+                        }
+                    } else {
+                        premium.addPremiumUser(args[1] + '@c.us', args[2], _premium)
+                        await pais.reply(from, `*「 PREMIUM ADDED 」*\n\n➸ *ID*: ${args[1]}@c.us\n➸ *Expired*: ${ms(toMs(args[2])).days} day(s) ${ms(toMs(args[2])).hours} hour(s) ${ms(toMs(args[2])).minutes} minute(s)`, id)
+                    }
+                } else if (ar[1] === 'del') {
+                    if (mentionedJidList.length == 0) {
+                        if (mentionedJidList[0] === botNumber) return await pais.reply(from, ind.wrongFormat(), id)
+                        _premium.splice(premium.getPremiumPosition(sender.id, _premium), 1)
+                        fs.writeFileSync('./database/bot/premium.json', JSON.stringify(_premium))
+                        await pais.reply(from, `Telah di hapus`, id)
+                    } else {
+                        _premium.splice(premium.getPremiumPosition(args[1] + '@c.us', _premium), 1)
+                        fs.writeFileSync('./database/bot/premium.json', JSON.stringify(_premium))
+                        await pais.reply(from, `Telah di hapus`, id)
+                    }
+                } else {
+                    await pais.reply(from, `Format salah!`, id)
+                }
             break
 /*-------------------CASE AFK-------------------*/
         case prefix +'afk':{
