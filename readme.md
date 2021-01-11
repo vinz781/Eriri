@@ -24,7 +24,7 @@ ownerNumber = "6213xxxxxx@c.us"
 Chat me to get apikey, 
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
-- [ZEKSAPI](https://api-zeks.harispoppy.com)
+- [ZEKSAPI](https://api.zeks.xyz)
 - [HUJANAPI](https://hujanapi.herokuapp.com)
 - [MELODIXCTAPI](https://melodixct.herokuapp.com)
 - [HujanApi](https://hujanapi.herokuapp.com/)
